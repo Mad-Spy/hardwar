@@ -7,7 +7,7 @@
   <forceEntries>
     <forceEntry name="Default Force" hidden="false" id="default-force">
       <categoryLinks>
-        <categoryLink name="Elements" hidden="false" id="f40d-e703-1799-a341" targetId="7545-70c8-d8c5-6488" type="categoryEntry"/>
+        <categoryLink name="Elements" hidden="false" id="f40d-e703-1799-a341" targetId="7545-70c8-d8c5-6488"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -87,6 +87,22 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73bc-fdd4-c3f3-2604-max" includeChildSelections="false"/>
               </constraints>
             </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Flaws" hidden="false" id="9d33-aeb5-cfe9-231b" flatten="true">
+              <entryLinks>
+                <entryLink import="true" name="Flaws" hidden="false" id="3dcf-7b02-5ca9-efc1" type="selectionEntryGroup" targetId="5f92-72ee-2807-2f3b"/>
+              </entryLinks>
+              <modifiers>
+                <modifier type="decrement" value="1" field="b8e6-885b-b2d7-829e">
+                  <repeats>
+                    <repeat value="1" repeats="1" field="selections" scope="self" childId="upgrade" shared="true" roundUp="false" includeChildSelections="true" includeChildForces="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b815-a687-436e-e063" includeChildSelections="false"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f240-cf2c-e1c0-5519" includeChildSelections="false"/>
+              </constraints>
+            </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="max" value="0" field="b8e6-885b-b2d7-829e" scope="parent" shared="true" id="9c0f-c7d2-1f30-7481" includeChildSelections="true"/>
@@ -162,8 +178,18 @@
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup name="Flaws" id="5f92-72ee-2807-2f3b" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Complex Reload" hidden="false" id="4e4e-27ef-1f9d-c8ba" type="selectionEntry" targetId="4bff-c9b3-3fea-1a20">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f663-dc3d-7f93-6da0" includeChildSelections="false"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Anti-aircraft" hidden="false" id="246c-07bd-704a-b20e"/>
+    <selectionEntry type="upgrade" import="true" name="Complex Reload" hidden="false" id="4bff-c9b3-3fea-1a20"/>
   </sharedSelectionEntries>
 </gameSystem>
