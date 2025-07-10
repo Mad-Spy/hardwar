@@ -1,0 +1,671 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="true" id="23c1-c7f4-6093-2d07" name="Troopers" gameSystemId="sys-b673-bb96-c905-ef54" gameSystemRevision="1" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <selectionEntries>
+    <selectionEntry type="model" import="true" name="Airborne Troopers" hidden="true" id="2a6e-85fd-b622-cb0d">
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="dc2b-6be5-619b-cb15" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="ae07-294f-e12d-d374" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Generic" hidden="false" id="9bd1-0ac9-5fa8-9902" targetId="f720-be54-88f2-ea35" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="497a-5c6a-5b93-9783" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Airborne Troopers" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="7400-1d1e-d104-1cf3">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">4</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">3</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">1</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dig In!" id="de76-34ef-e98b-462c" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Alert" id="026a-d61b-8f56-25b0" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Orbital Entry" id="d9a8-45c9-fac7-7d39" hidden="false" type="profile" targetId="1a48-f135-dba0-7486"/>
+      </infoLinks>
+      <costs>
+        <cost name="Class" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Artillery Troopers" hidden="true" id="dc45-b73b-9dea-6250">
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="0da5-701f-d970-6fc1" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="6308-cd8a-d6e5-30d9" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Generic" hidden="false" id="f6e5-c86e-9652-7245" targetId="f720-be54-88f2-ea35" primary="false"/>
+        <categoryLink name="Class 2" hidden="false" id="d73f-b98a-32ef-09cc" targetId="cafc-b7c6-5a34-85a5" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Artillery Troopers" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="a0f7-241b-d0b3-e411">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">2</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">5</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">1</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dig In!" id="9109-6c6a-1de3-e963" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Alert" id="a4fd-07e8-a606-ddd9" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Indirect Fire" id="2c12-9262-9f8e-e2d8" hidden="false" type="profile" targetId="c33b-ed61-a1e3-2246"/>
+        <infoLink name="Cumbersome" id="d6f6-161c-d3fc-b87f" hidden="false" type="profile" targetId="fdcf-7eeb-607c-6b75"/>
+      </infoLinks>
+      <costs>
+        <cost name="Class" typeId="7758-b0a6-3577-b6a5" value="2"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Heavy Troopers" hidden="true" id="4941-8b54-a404-77b6">
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="63d2-ca76-3adf-4913" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="2e04-237f-fd9b-f4ef" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Generic" hidden="false" id="97da-d14d-f6dc-c7e8" targetId="f720-be54-88f2-ea35" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="f676-f679-2f7e-54e1" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Heavy Troopers" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="fc17-57c9-8c13-345a">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">3</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dig In!" id="51b3-4f08-61cb-7227" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Alert" id="74c4-7ed8-423b-eba0" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+      </infoLinks>
+      <costs>
+        <cost name="Class" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Light Troopers" hidden="true" id="966a-dd74-1b13-b682">
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="908c-bbea-e027-32fa" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="b363-b032-22ac-0805" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Generic" hidden="false" id="b9e5-4b4e-49a9-5428" targetId="f720-be54-88f2-ea35" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="3104-8b10-f9fd-be77" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Light Troopers" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="383d-a643-b70b-c68d">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">4</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">1</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dig In!" id="e762-e8c7-e64d-c240" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Alert" id="dbbf-786b-fc1e-5272" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Agile" id="303f-5fea-dc07-b1dc" hidden="false" type="profile" targetId="828a-f36c-5917-6bbf"/>
+      </infoLinks>
+      <costs>
+        <cost name="Class" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Jump Troopers" hidden="true" id="fe34-f965-fcae-bf23">
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="fe89-dbaa-1907-2c60" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="e12a-de02-b17a-9846" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Generic" hidden="false" id="1765-b3be-9459-cb52" targetId="f720-be54-88f2-ea35" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="8463-c98e-cdef-cbc9" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Jump Troopers" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="3d19-af5f-850c-6f70">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">4</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">1</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Jump Jets" id="ec0d-894a-78f3-0a7e" hidden="false" type="profile" targetId="ab35-dd05-5d80-2f61"/>
+        <infoLink name="Alert" id="b695-463b-aa02-0a10" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Orbital Entry" id="4604-51ce-bbe5-2ef6" hidden="false" type="profile" targetId="1a48-f135-dba0-7486"/>
+      </infoLinks>
+      <costs>
+        <cost name="Class" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Mobile Troopers" hidden="true" id="aa04-b431-62d5-ace5">
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="de44-1296-cd64-3461" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="a507-9e10-9457-1c8d" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Generic" hidden="false" id="06f6-c189-3f50-b47d" targetId="f720-be54-88f2-ea35" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="914d-da1f-6a2a-2a5d" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Mobile Troopers" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="0db7-ae09-4bcc-5d2e">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">5</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">1</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">1</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Nimble" id="9637-166b-ee37-128b" hidden="false" type="profile" targetId="35f4-0223-739f-92c0"/>
+        <infoLink name="Alert" id="37f6-7bc5-bbd6-f100" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Rapid" id="33db-5bc9-8798-1fab" hidden="false" type="profile" targetId="e9bd-fd20-5c36-7505"/>
+      </infoLinks>
+      <costs>
+        <cost name="Class" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Recon Troopers" hidden="true" id="595f-c56e-9c47-0aa7">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="2"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <profiles>
+        <profile name="Recon Troopers" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="a4e3-7647-b47c-c263">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">2</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">1</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="be89-e952-3b9e-5e4b" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Dig In!" id="6f92-c33c-9e1c-8c61" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Spotter" id="edf1-5cb9-1250-ed89" hidden="false" type="profile" targetId="2a89-35ac-ad81-1989"/>
+        <infoLink name="Orbital Entry" id="edb6-9571-7dd3-d75a" hidden="false" type="profile" targetId="1a48-f135-dba0-7486"/>
+        <infoLink name="Active Camouflage" id="7955-8a75-c58e-7279" hidden="false" type="profile" targetId="e935-3b41-a83c-7bee"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="7718-d750-edd9-d469" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="60e4-8063-cd8c-7e7b" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Generic" hidden="false" id="0807-e2af-644b-e8e5" targetId="f720-be54-88f2-ea35" primary="false"/>
+        <categoryLink name="Class 2" hidden="false" id="4c45-09a2-766a-8124" targetId="cafc-b7c6-5a34-85a5" primary="false"/>
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Custom Trooper" hidden="false" id="5ae3-dbf5-766e-a6ac">
+      <entryLinks>
+        <entryLink import="true" name="Weapon Upgrades" hidden="false" id="d621-c4d6-4720-d0c1" type="selectionEntryGroup" targetId="3aa9-b361-5c39-b721" sortIndex="4"/>
+        <entryLink import="true" name="Special Skills" hidden="false" id="1b4b-cb89-c981-855d" type="selectionEntryGroup" targetId="4a84-3a12-eee4-d23d" sortIndex="5"/>
+        <entryLink import="true" name="Performance Upgrades" hidden="false" id="abc8-d2a9-100d-cc8f" type="selectionEntryGroup" targetId="8f2a-787a-33d4-4dea" sortIndex="6"/>
+        <entryLink import="true" name="Flaws" hidden="false" id="f2d8-5901-a635-bdc4" type="selectionEntryGroup" targetId="5f92-72ee-2807-2f3b" sortIndex="7"/>
+        <entryLink import="true" name="Class" hidden="false" id="cb8b-59c8-c9e6-2952" type="selectionEntry" targetId="60ca-b179-015a-345a" sortIndex="1"/>
+        <entryLink import="true" name="Additional Motive" hidden="false" id="4afe-6c21-7913-6e29" type="selectionEntryGroup" targetId="2945-7a51-adcb-fbcf" sortIndex="2"/>
+        <entryLink import="true" name="Attributes" hidden="false" id="605d-16fb-6e16-3ea5" type="selectionEntryGroup" targetId="5e70-8999-c6c7-7ccc" sortIndex="3"/>
+      </entryLinks>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="b0f7-d33f-d2c6-bcf6" targetId="a040-b8ec-702d-9853" primary="false"/>
+        <categoryLink name="Infantry" hidden="false" id="1e33-4ccc-802d-fe8c" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Custom Elements" hidden="false" id="280a-70e3-444f-5b35" targetId="70d7-7194-06de-2c48" primary="true"/>
+      </categoryLinks>
+      <modifiers>
+        <modifier type="set" value="11" field="b8e6-885b-b2d7-829e">
+          <conditions>
+            <condition type="equalTo" value="1" field="selections" scope="5ae3-dbf5-766e-a6ac" childId="60ca-b179-015a-345a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="14" field="b8e6-885b-b2d7-829e">
+          <conditions>
+            <condition type="equalTo" value="2" field="selections" scope="5ae3-dbf5-766e-a6ac" childId="60ca-b179-015a-345a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" value="17" field="b8e6-885b-b2d7-829e">
+          <conditions>
+            <condition type="equalTo" value="3" field="selections" scope="5ae3-dbf5-766e-a6ac" childId="60ca-b179-015a-345a" shared="true" includeChildSelections="true"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile name="Custom Trooper" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="943e-5ed2-572e-a235">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89"/>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595"/>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70"/>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24"/>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <constraints>
+        <constraint type="min" value="0" field="b8e6-885b-b2d7-829e" scope="parent" shared="true" id="f2ae-b144-91d1-632b" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="D7 Scout Drone" hidden="true" id="3727-0f4e-9790-1039">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="eddf-4f69-6445-86b9" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Hovercraft" hidden="false" id="d756-d7f5-9261-8a82" targetId="fd3f-b150-fd45-9bc0" primary="false"/>
+        <categoryLink name="Anansi" hidden="false" id="8650-02a5-1f71-aaf4" targetId="1e58-84a6-390e-bdfd" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="eca7-f464-6f33-e499" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="D7 Defender Drone" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="86a1-a674-0141-90e0">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">4</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">1</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Spotter" id="c5b5-12f4-5d24-69c5" hidden="false" type="profile" targetId="2a89-35ac-ad81-1989"/>
+        <infoLink name="Rapid" id="d9ad-a4a1-e5ef-872c" hidden="false" type="profile" targetId="e9bd-fd20-5c36-7505"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="D7 Eliminator Drone" hidden="true" id="b008-74bd-74f6-fa88">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="ecf2-9c62-4a73-1d08" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Hovercraft" hidden="false" id="b9fb-d038-3fdc-1272" targetId="fd3f-b150-fd45-9bc0" primary="false"/>
+        <categoryLink name="Anansi" hidden="false" id="28f8-2c72-6ef1-294f" targetId="1e58-84a6-390e-bdfd" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="6365-f134-b0f2-eace" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="D7 Eliminator Drone" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="ff78-2b1f-7d28-a788">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">4</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">1</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Dual" id="923b-a119-c27f-7f55" hidden="false" type="profile" targetId="9f0d-6d2d-f713-16b4"/>
+        <infoLink name="Rapid" id="35da-6113-3701-1499" hidden="false" type="profile" targetId="e9bd-fd20-5c36-7505"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="D7 Defender Drone" hidden="true" id="0df8-4250-c039-186b">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="ff30-52ab-0347-99a6" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Hovercraft" hidden="false" id="152a-6a3a-daff-b2d7" targetId="fd3f-b150-fd45-9bc0" primary="false"/>
+        <categoryLink name="Anansi" hidden="false" id="ada5-cbb7-5327-cd4a" targetId="1e58-84a6-390e-bdfd" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="6860-ef9c-8a7f-502f" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="D7 Defender Drone" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="a613-f741-b775-dbac">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">4</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">1</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Force Shield Generator" id="ff0d-2496-af6b-dc8d" hidden="false" type="profile" targetId="f3de-3ec7-1470-793c"/>
+        <infoLink name="Rapid" id="85e3-f43f-64db-bbd9" hidden="false" type="profile" targetId="e9bd-fd20-5c36-7505"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormbreaker Heavy Laser Squad" hidden="true" id="f00b-a60e-6c2e-10ff">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="b4dc-14bb-f0e4-cd52" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="95fa-8b8d-491c-910c" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Exor" hidden="false" id="314f-c363-56d8-a485" targetId="1e22-2196-b47b-e4f5" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="ce5a-fe13-b530-83c7" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Stormbreaker Heavy Laser Squad" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="c7ca-5b68-8856-5043">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">3</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="f204-aad9-24a2-48e1" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Dig In!" id="6998-8821-b455-c659" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Cumbersome" id="7383-938d-af23-5d59" hidden="false" type="profile" targetId="fdcf-7eeb-607c-6b75"/>
+        <infoLink name="Laser" id="1f5b-384c-a7e5-6d26" hidden="false" type="profile" targetId="e2ed-39d0-1c83-7cb8"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormbreaker Sniper Squad" hidden="true" id="3aca-c8fd-9119-c4d9">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="aa38-a84f-bf0e-ce7b" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="f484-ebf5-d2c0-1999" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Exor" hidden="false" id="2fac-efbd-969e-a887" targetId="1e22-2196-b47b-e4f5" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="c425-7c32-594a-019c" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Stormbreaker Rifle Squad" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="da2a-9322-554b-7772">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="a932-520c-8dd7-bccd" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Dig In!" id="1322-bbc4-70ca-a17c" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Cumbersome" id="da8e-c00d-3b72-4e89" hidden="false" type="profile" targetId="fdcf-7eeb-607c-6b75"/>
+        <infoLink name="Railgun" id="c6bd-3624-82f9-d94a" hidden="false" type="profile" targetId="18cc-72fa-4b19-c296"/>
+        <infoLink name="Active Camouflage" id="b9f3-57f9-73b0-3908" hidden="false" type="profile" targetId="e935-3b41-a83c-7bee"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormbreaker Gatling Squad" hidden="true" id="2e9c-8fb6-8539-04c2">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="f992-49d9-1b6f-25f4" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="53ff-7440-c83f-5941" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Exor" hidden="false" id="c2cb-b13e-5285-f1a6" targetId="1e22-2196-b47b-e4f5" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="a66e-9c5a-eb4a-880a" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Stormbreaker Gatling Squad" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="d8ee-93ba-1870-84ef">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">3</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="b1f1-a051-d7df-65c6" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Dig In!" id="149c-bc4d-701a-003b" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Cumbersome" id="b644-7fa3-069b-b7b2" hidden="false" type="profile" targetId="fdcf-7eeb-607c-6b75"/>
+        <infoLink name="Gatling" id="2a92-a8de-e8ae-6358" hidden="false" type="profile" targetId="f5f5-ffcd-8f04-10e9"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormbreaker Rifle Squad" hidden="true" id="27d0-d072-df7e-93e5">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="7a39-ecd2-b20b-9317" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="7620-ae9a-db6d-9b0e" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Exor" hidden="false" id="78aa-c01b-5139-91b6" targetId="1e22-2196-b47b-e4f5" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="900f-bc77-cc3a-94a9" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Stormbreaker Rifle Squad" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="343d-ac16-f3e0-4c69">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="ed98-da09-efa3-64f6" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Dig In!" id="91b6-5366-a60d-0675" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Self-repair" id="050d-943b-0864-d5d3" hidden="false" type="profile" targetId="e0cf-4ba6-e339-4145"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormbreaker Missile Squad" hidden="true" id="a912-6a0d-1c05-79cc">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="23c3-37c6-0be0-29e5" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="a052-c0e6-05cd-faa0" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Exor" hidden="false" id="0544-b5a4-13dd-6245" targetId="1e22-2196-b47b-e4f5" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="4a66-353c-5aef-8dc2" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Stormbreaker Heavy Laser Squad" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="facd-90fb-09f6-3443">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">3</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="e98d-461a-273f-3a01" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Dig In!" id="0f0c-e8f9-b1e0-151f" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Cumbersome" id="1e56-8684-9d18-571f" hidden="false" type="profile" targetId="fdcf-7eeb-607c-6b75"/>
+        <infoLink name="Indirect Fire" id="ff38-531e-940b-4e87" hidden="false" type="profile" targetId="c33b-ed61-a1e3-2246"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormbreaker Jump Infantry" hidden="true" id="69cc-81db-bd70-ff28">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="49aa-6fd9-561f-6edb" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="b422-a67e-aec4-9f94" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Exor" hidden="false" id="1b8f-3b28-59d4-a6e3" targetId="1e22-2196-b47b-e4f5" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="f4e4-4a08-3c68-dc7f" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Stormbreaker Jump Infantry" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="744b-6a64-ab98-82d4">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">4</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="c3d9-552d-7d65-7c8c" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Jump Jets" id="c05b-83fe-76f7-6839" hidden="false" type="profile" targetId="ab35-dd05-5d80-2f61"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Dobermann Squad" hidden="true" id="6a7f-9681-2310-4707">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="73ed-0aa5-d556-5523" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="53d8-5ddb-93b3-2f2a" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Marstech" hidden="false" id="de35-521d-6b8c-4aeb" targetId="aee1-45d4-4908-b012" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="f6d9-3fa5-c1a7-458e" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Stormbreaker Expeditionary Squad" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="dbe2-836c-b2f6-34a6">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="efe2-112e-32cc-9f09" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Rapid" id="7c72-046b-627c-72a8" hidden="false" type="profile" targetId="e9bd-fd20-5c36-7505"/>
+        <infoLink name="Active Camouflage" id="cf25-39cf-bf81-e49e" hidden="false" type="profile" targetId="e935-3b41-a83c-7bee"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Nephilim Power Armour Squad" hidden="true" id="b031-17b3-d769-37a1">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="2"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="cbd0-e77d-baab-ef91" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="f12f-5e5a-f9ab-e122" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Anansi" hidden="false" id="2012-38d9-0b7a-7c6e" targetId="1e58-84a6-390e-bdfd" primary="false"/>
+        <categoryLink name="Class 2" hidden="false" id="81c5-8b10-89ad-b6cc" targetId="cafc-b7c6-5a34-85a5" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Nephilim Power Armour Squad" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="7090-648f-c8ed-de49">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">2</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">5</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="457d-1b82-b699-fbc4" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Plasma Accelerator" id="c43d-dbff-3510-d19d" hidden="false" type="profile" targetId="8eaf-0544-5084-be60"/>
+        <infoLink name="Jump Jets" id="8789-f222-1bff-e38e" hidden="false" type="profile" targetId="ab35-dd05-5d80-2f61"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Stormbreaker Expeditionary Squad" hidden="true" id="5613-004c-2bb5-eee1">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="1"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="9cab-9285-9af0-1506" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="359d-60df-9cd5-fc81" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Exor" hidden="false" id="1929-f290-a250-5398" targetId="1e22-2196-b47b-e4f5" primary="false"/>
+        <categoryLink name="Class 1" hidden="false" id="6976-45d4-3b79-a3ec" targetId="72b4-4845-b592-be62" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Stormbreaker Expeditionary Squad" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="a766-6030-4108-5363">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">1</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">2</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="5393-81b8-7091-aa47" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Dig In!" id="ce1b-d2de-0b1a-f1f7" hidden="false" type="profile" targetId="7ca5-1989-8580-424a"/>
+        <infoLink name="Sat-lock" id="f497-3992-a346-122e" hidden="false" type="profile" targetId="89a7-d1af-6f0c-a0e6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Cyclone Power Armour Squad" hidden="true" id="af2a-296c-fac1-5f74">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="2"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="18bc-2d51-7802-3be0" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="4255-14df-f25a-1175" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Marstech" hidden="false" id="b31e-9dd8-6160-ad3d" targetId="aee1-45d4-4908-b012" primary="false"/>
+        <categoryLink name="Class 2" hidden="false" id="37e5-5934-9847-48fc" targetId="cafc-b7c6-5a34-85a5" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Cyclone Power Armour Squad" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="0cb0-f2d3-a708-5761">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">2</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">4</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">3</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="65c2-3cc4-9016-3b78" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Railgun" id="b716-94d9-072f-53bb" hidden="false" type="profile" targetId="18cc-72fa-4b19-c296"/>
+        <infoLink name="Rapid" id="3dc0-2fac-e1e7-a841" hidden="false" type="profile" targetId="e9bd-fd20-5c36-7505"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Praetorian Power Armour Squad" hidden="true" id="e69b-aeb0-257d-cea9">
+      <costs>
+        <cost name="Class Points" typeId="7758-b0a6-3577-b6a5" value="2"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="9208-f128-4928-22e8" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="0017-21ce-1752-3a65" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Exor" hidden="false" id="7d6a-9ec8-3081-425a" targetId="1e22-2196-b47b-e4f5" primary="false"/>
+        <categoryLink name="Class 2" hidden="false" id="f835-5602-f074-cdd1" targetId="cafc-b7c6-5a34-85a5" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Praetorian Power Armour Squad" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="f368-8639-4e63-1d84">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">2</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">4</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">3</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">2</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">3</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Alert" id="7a2f-e82c-c421-ed58" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="XMG" id="4e85-50fb-f664-4dc9" hidden="false" type="profile" targetId="473a-22bd-c3b2-ba69"/>
+        <infoLink name="Active Camouflage" id="ae0a-9ffa-4f55-1785" hidden="false" type="profile" targetId="e935-3b41-a83c-7bee"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="model" import="true" name="Special Forces" hidden="true" id="3517-9303-d85c-081e">
+      <categoryLinks>
+        <categoryLink name="Troopers" hidden="false" id="92c4-d775-378f-4832" targetId="a040-b8ec-702d-9853" primary="true"/>
+        <categoryLink name="Infantry" hidden="false" id="1e3b-fdf5-487c-052c" targetId="c0b1-2783-50c0-b774" primary="false"/>
+        <categoryLink name="Generic" hidden="false" id="9101-95a3-a339-5ac5" targetId="f720-be54-88f2-ea35" primary="false"/>
+        <categoryLink name="Class 2" hidden="false" id="6b35-825a-c0d0-765a" targetId="cafc-b7c6-5a34-85a5" primary="false"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Special Forces" typeId="ac84-7d04-573b-396f" typeName="Element" hidden="false" id="b565-01cf-1d0b-efcf">
+          <characteristics>
+            <characteristic name="Class" typeId="b289-9ec1-b5c1-9f89">2</characteristic>
+            <characteristic name="Mobility" typeId="3183-cb3a-c8fa-b595">3</characteristic>
+            <characteristic name="Firepower" typeId="8260-90f7-49fb-5e70">4</characteristic>
+            <characteristic name="Armour" typeId="2e0b-7683-7269-ee24">1</characteristic>
+            <characteristic name="Defense" typeId="f10c-fe5d-e90b-7355">2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Active Camouflage" id="9b33-75bc-7f8a-6401" hidden="false" type="profile" targetId="e935-3b41-a83c-7bee"/>
+        <infoLink name="Alert" id="6fa9-bdf4-3144-7c0d" hidden="false" type="profile" targetId="9330-217d-c73c-5106"/>
+        <infoLink name="Orbital Entry" id="96fb-e47d-a757-6abf" hidden="false" type="profile" targetId="1a48-f135-dba0-7486"/>
+      </infoLinks>
+      <costs>
+        <cost name="Class" typeId="7758-b0a6-3577-b6a5" value="2"/>
+        <cost name="Construction Points" typeId="b8e6-885b-b2d7-829e" value="0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+</catalogue>
