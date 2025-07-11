@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-b673-bb96-c905-ef54" name="hardwar" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-b673-bb96-c905-ef54" name="Hardwar" battleScribeVersion="2.03" revision="1" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" authorUrl="https://modiphius.net/pages/hardwar" authorName="Mad-Spy">
   <categoryEntries>
     <categoryEntry name="Walker" id="8bed-2763-8816-0165" hidden="false">
       <rules>
@@ -2119,4 +2119,7 @@ Elements equipped with the Quantum Radar may perform the Scan Special Action th
       </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
+  <publications>
+    <publication name="Github" id="8db3-575d-91b-47f8" hidden="false" shortName="Mad-Spy/hardwar" publisherUrl="https://github.com/Mad-Spy/hardwar"/>
+  </publications>
 </gameSystem>
